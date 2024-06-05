@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="Enter Player 1 Name:"
+        android:fontFamily="serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:id="@+id/heading1"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/heading1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40sp"
+        android:id="@+id/nameet1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <TextView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="Enter Player 2 Name:"
+        android:fontFamily="serif"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/nameet1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:id="@+id/heading2"/>
+
+    <EditText
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@+id/heading2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="40sp"
+        android:id="@+id/nameet2"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:fontFamily="serif"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:id="@+id/bt1"/>
+
+
+
+</RelativeLayout>
